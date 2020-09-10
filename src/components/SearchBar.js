@@ -39,7 +39,7 @@ const SearchBar = () => {
                     value={query}
                     onKeyPress={search}
                 />
-                <i className="searchIcon" />
+                <img className="searchIcon" src={SearchIcon} />
             </div>
 
             {typeof weather.main != "undefined" ? (
